@@ -123,25 +123,25 @@ class LowVowel(Vowel):
         self.symbol = symbol
         self.roundness = 'unrounded'
 
-# sound1 = VoicelessObstruent('t', 'dental', 'stop')
-# sound1.print_info()
-# print('\n')
-#
-# sound2 = VoicedObstruent('b', 'labial', 'stop')
-# sound2.print_info()
-# sound2 = sound2.devoice()
-# sound2.print_info()
-# print('\n')
-#
-# sound3 = Sonorant('m', 'labial', 'nasal')
-# sound3.print_info()
-# print('\n')
-#
-# sound4 = MidVowel('e', 'front')
-# sound4.print_info()
-# sound4 = sound4.rise()
-# sound4.print_info()
-# print('\n')
+sound1 = VoicelessObstruent('t', 'dental', 'stop')
+sound1.print_info()
+print('\n')
 
-# sound5 = LowVowel('a')
-# sound5.print_info()
+sound2 = VoicedObstruent('b', 'labial', 'stop')
+sound2.print_info()
+sound2 = sound2.devoice()
+sound2.print_info()
+print('\n')
+
+sound3 = Sonorant('m', 'labial', 'nasal')
+sound3.print_info()
+print('\n')
+
+sound4 = MidVowel('e', 'front')
+sound4.print_info()
+sound4 = sound4.rise()
+sound4.print_info()
+print('\n')
+
+sound5 = LowVowel('a')
+sound5.print_info()
