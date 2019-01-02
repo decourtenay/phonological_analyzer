@@ -1,0 +1,32 @@
+natural_class_describer.py
+
+    For each feature value, lists all the sounds with this value
+
+feature_analyzer.py
+
+    Lists values of a given feature and sounds with these values.
+    Ask e.g. about 'voicing'
+
+feature_value_analyzer.py
+
+    Lists sounds with given feature value.
+    Ask e.g. about 'high'
+
+feature_value_combination_analyzer.py
+
+    Lists sounds that share the given two feature values
+    Ask e.g. about 'high' and 'mid'
+
+sound_analyzer.py
+
+    Lists the feature values of a given sound
+    Ask about e.g. 't'
+
+sound_set_analyzer.py
+
+    Lists the feature values shared by two sounds
+    Ask about e.g. 't' and 'd'
+
+similar_sound_finder.py
+
+    Lists the sounds that share feature values with the given sound
